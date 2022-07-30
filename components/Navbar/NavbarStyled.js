@@ -1,11 +1,12 @@
 import styled from "styled-components";
+import theme from "../../theme";
 
 export const Nav = styled.nav`
   height: 100%;
   width: 100%;
   margin-top: 2rem;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
   }
 `;
@@ -68,6 +69,6 @@ export const NavLinks = styled.a`
   height: 100%;
   cursor: pointer;
   &:hover {
-    color: black;
+    color: ${({ theme }) => theme.colors.VeryDarkViolet};
   }
 `;
