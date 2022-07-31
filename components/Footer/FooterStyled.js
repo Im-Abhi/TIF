@@ -11,7 +11,7 @@ export const FooterTitle = styled.div`
   display: flex;
   width: 100%;
   padding: 3rem;
-  background-color: #3b3054;
+  background-color: ${({ theme }) => theme.colors.DarkVoilet};
   background-image: url('./Meteor.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -160,12 +160,12 @@ export const FooterLinks = styled.div`
 `;
 
 export const LinksLogo = styled.div`
-  height: 30px;
-  width: 30px;
   cursor: pointer;
   display: flex;
+  color: white;
+  font-size: 1.5rem;
 
-  img:hover {
+  &:hover {
     color: ${({ theme }) => theme.colors.Cyan};
   }
 `;

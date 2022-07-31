@@ -4,6 +4,8 @@ import Pinterest from "../../public/icon-pinterest.svg";
 import Instagram from "../../public/icon-instagram.svg";
 import LogoWhite from "../../public/logo_white.svg";
 
+import { FaFacebookSquare, FaTwitter, FaPinterest, FaInstagram } from 'react-icons/fa';
+
 import {
     FooterTitle,
     FooterContainer,
@@ -35,16 +37,20 @@ const Footer = () => {
                     </Logo>
                     <FooterLinks>
                         <LinksLogo>
-                            <Image src={Facebook} alt="facbook" />
+                            <FaFacebookSquare />
+                            {/* <Image src={Facebook} alt="facbook" /> */}
                         </LinksLogo>
                         <LinksLogo>
-                            <Image src={Twitter} alt="twitter" />
+                            <FaTwitter />
+                            {/* <Image src={Twitter} alt="twitter" /> */}
                         </LinksLogo>
                         <LinksLogo>
-                            <Image src={Pinterest} alt="pinterest" />
+                            <FaPinterest />
+                            {/* <Image src={Pinterest} alt="pinterest" /> */}
                         </LinksLogo>
                         <LinksLogo>
-                            <Image src={Instagram} alt="instagram" />
+                            <FaInstagram />
+                            {/* <Image src={Instagram} alt="instagram" /> */}
                         </LinksLogo>
                     </FooterLinks>
                 </LinksContainer>
