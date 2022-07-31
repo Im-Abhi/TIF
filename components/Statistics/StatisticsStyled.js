@@ -7,6 +7,7 @@ export const Flex = styled.div`
   height: 100%;
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 2rem;
   @media screen and (max-width: 768px) {
     padding-top: 1rem;
   }
@@ -77,7 +78,6 @@ export const CardsWrapper = styled.div`
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    padding-bottom: 2rem;
     gap: 5rem;
   }
 `;
