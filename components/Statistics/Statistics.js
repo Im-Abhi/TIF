@@ -34,7 +34,7 @@ const Content = () => {
                         </Circle>
                         <Heading1>Brand Recognition</Heading1>
                         <Para1>
-                            Boost your brand recognition with each click. Generic links don't
+                            Boost your brand recognition with each click. Generic links don&apos;t
                             mean a thing. Branded links help instil confidence in your
                             content.
                         </Para1>
@@ -46,7 +46,7 @@ const Content = () => {
                         </Circle>
                         <Heading1>Brand Recognition</Heading1>
                         <Para1>
-                            Boost your brand recognition with each click. Generic links don't
+                            Boost your brand recognition with each click. Generic links don&apos;t
                             mean a thing. Branded links help instil confidence in your
                             content.
                         </Para1>
@@ -58,7 +58,7 @@ const Content = () => {
                         </Circle>
                         <Heading1>Brand Recognition</Heading1>
                         <Para1>
-                            Boost your brand recognition with each click. Generic links don't
+                            Boost your brand recognition with each click. Generic links don&apos;t
                             mean a thing. Branded links help instil confidence in your
                             content.
                         </Para1>
