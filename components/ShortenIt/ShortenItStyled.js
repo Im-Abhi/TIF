@@ -35,6 +35,7 @@ export const Background = styled.div`
 `;
 
 export const SearchBar = styled.input`
+  position: relative;
   display: flex;
   font-size: 1.4rem;
   padding: 1rem 2rem;
@@ -76,6 +77,14 @@ export const Button = styled.button`
     max-width: 90%;
     margin-top: 1rem;
   }
+`;
+
+export const InputError = styled.p`
+  display: ${({ hidden }) => !hidden ? "inline" : "none"};
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  color: ${({ theme }) => theme.colors.Red};
 `;
 
 export const LinkList = styled.div`
@@ -154,7 +163,7 @@ export const CopyBtn = styled.button`
   display: flex;
   border-radius: 8px;
   color: white;
-  background-color: ${({ copied }) => copied ? "#3a3053" : "#2acfcf"};
+  background-color: #2acfcf;
   white-space: nowrap;
   padding: 10px 30px;
   font-size: 18px;
@@ -164,7 +173,7 @@ export const CopyBtn = styled.button`
   text-decoration: none;
   
   &:hover {
-    background-color: ${({ copied }) => copied ? "" : "#9be3e2"};
+    background-color: #9be3e2;
   }
   
   @media screen and (max-width: 768px) {

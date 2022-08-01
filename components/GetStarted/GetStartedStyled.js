@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Description = styled.div`
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 3rem auto 5rem;
+  margin: 1rem auto 5rem;
   flex-direction: column;
   @media screen and (max-width: 768px) {
     height: 100%;
@@ -39,13 +39,9 @@ export const Heading = styled.h1`
   margin: 0;
   text-align: center;
   color: ${({ theme }) => theme.colors.VeryDarkBlue};
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
   text-transform: uppercase;
-
-  @media screen and (max-width: 1024px) {
-    font-size: 5rem;
-  }
 
   @media screen and (max-width: 768px) {
     font-size: 4rem;
@@ -78,7 +74,4 @@ export const ContentWrapper2 = styled.div`
     order: 1;
     animation: moveTop 1s ease-in-out;
   }
-`;
-
-export const Person = styled.div`
 `;
