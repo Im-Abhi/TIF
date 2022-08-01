@@ -28,17 +28,17 @@ const Navbar = ({ mytoggleHandler }) => {
                 </Link>
                 <NavMenu>
                     <NavItem>
-                        <Link href={'/features'}>
+                        <Link href={'/'}>
                             <NavLinks>Features</NavLinks>
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Link href={'/pricing'}>
+                        <Link href={'/'}>
                             <NavLinks>Pricing</NavLinks>
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Link href={'/resources'}>
+                        <Link href={'/'}>
                             <NavLinks>Resources</NavLinks>
                         </Link>
                     </NavItem>
