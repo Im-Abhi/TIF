@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import theme from "../../theme";
 
 export const Nav = styled.nav`
   height: 100%;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
